@@ -1,3 +1,9 @@
 const header = document.getElementById('hello')
 
-header.style.color = 'red';
+function changeColor() {
+  header.style.color = 'red';
+}
+
+function changeBack() {
+  header.style.color = 'black';
+}
